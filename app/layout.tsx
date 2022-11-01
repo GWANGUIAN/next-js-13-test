@@ -1,5 +1,22 @@
+import Link from 'next/link';
+
 export default function Layout({ children }: {
   children: React.ReactNode;
 }) {
-  return <div>{children}</div>;
+  return (
+    <>
+      <header>
+        <Link href="/">
+          Home
+        </Link>
+        <Link href="/about">
+          About
+        </Link>
+        <Link href="/example">
+          Example
+        </Link>
+      </header>
+      <div>{children}</div>
+    </>
+  );
 }

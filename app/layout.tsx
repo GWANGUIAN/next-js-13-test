@@ -15,6 +15,12 @@ export default function Layout({ children }: {
         <Link href="/example">
           Example
         </Link>
+        <Link href="/image">
+          Image
+        </Link>
+        <Link href="/font">
+          Font
+        </Link>
       </header>
       <div>{children}</div>
     </>

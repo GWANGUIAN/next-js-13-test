@@ -2,6 +2,7 @@ import { Nanum_Pen_Script as Nanum } from '@next/font/google';
 
 const nanum = Nanum({
   weight: '400',
+  preload: true,
 });
 
 export default function Layout({ children }: {
